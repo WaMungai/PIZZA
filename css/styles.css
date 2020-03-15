@@ -1,0 +1,131 @@
+*{
+    font-family: 'Nosifer', cursive;
+}
+.address{
+    display: none;
+}
+
+.show-order{
+    
+    display: none;
+    
+}
+
+.address-summary{
+    
+    display: none;
+   
+}
+
+.jumbotron{
+    margin-top:30px;
+    font-size:300px;
+    text-align: center;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../pizzajumbo.webp);
+    background-size: cover;
+    object-fit: fill;
+    height:500px;
+    font:caption;
+    color:white;
+    font-family: 'Nosifer', cursive;
+
+    
+}
+.container-fluid row{
+    margin-left:30px;
+}
+#pizzacraze{
+    
+    display: inline;
+    text-align: center;
+    
+}
+#pizza-1{
+    margin-left:10px;
+}
+
+
+.hawaiian{
+    height:300px;
+    width:300px;
+    cursor:pointer;
+
+}
+.periperi{
+    height:300px;
+    width:300px;
+    cursor:pointer;
+}
+
+.meatdeluxe{
+    height:300px;
+    width:300px;
+    cursor:pointer;
+
+}
+.greekpizza{
+    cursor:pointer;
+    height:300px;
+    width:300px;
+
+}
+#orderpizza{
+    text-align: center;
+    font-size:30px;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../orderimage.jpeg);
+    background-size:cover;
+    object-fit:fill;
+    color:white;
+    
+}
+input[type="radio"]{
+    height:1em; 
+    width:1em;
+    
+    
+}
+#footer{
+    text-align: center;
+    color: green;
+}
+
+h2{
+    color:green;
+}
+#line{
+    color:greenyellow;
+}
+#pizzatitle{
+    color:maroon;
+}
+#pricemenu{
+    display:inline-block;
+}
+.hawaiiantext{
+    text-align: center;
+    cursor:pointer;
+    display:none;
+    color:red;
+}
+.periperitext{
+    text-align: center;
+    cursor:pointer;
+    display:none;
+    color:red;
+}
+.meatdeluxetext{
+    text-align: center;
+    cursor:pointer;
+    display:none;
+    color:red;
+}
+.greekpizzatext{
+    text-align: center;
+    cursor:pointer;
+    display:none;
+    color:red;
+}
+.clickme{
+    text-align: center;
+    display: none;
+}
